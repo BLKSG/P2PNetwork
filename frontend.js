@@ -24,7 +24,7 @@ $(function () {
     }
 
     // open connection
-    var connection = new WebSocket('ws://localhost:1337');
+    var connection = new WebSocket('ws://aa026e2a.ngrok.io');
 
     connection.onopen = function () {
         // first we want users to enter their names
